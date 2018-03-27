@@ -10,15 +10,14 @@ public class CubeSpawner : MonoBehaviour
 
     private float timer = 0;
 
-	void Update () 
+    void Update()
     {
         timer += Time.deltaTime;
 
         if (timer >= spawnRate)
         {
-            SpawnCube();   
+            SpawnCube();
         }
-        print(timer);
 	}
 
     private void SpawnCube()
