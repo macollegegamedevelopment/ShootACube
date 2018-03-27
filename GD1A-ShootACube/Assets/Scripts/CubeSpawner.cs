@@ -18,7 +18,6 @@ public class CubeSpawner : MonoBehaviour
         {
             SpawnCube();
         }
-        print(spawnTimer);
     }
 
     private void SpawnCube()
